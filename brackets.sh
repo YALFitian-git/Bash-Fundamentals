@@ -13,3 +13,4 @@ if [ 1 =  0 ]; then
 else
 	echo "Statement is false"
 fi
+#The code above uses single square brackets. Single square brackets are used to check truthness, and thus it is used in if statements.
