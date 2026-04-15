@@ -15,7 +15,10 @@ else
 fi
 #The code above uses single square brackets. Single square brackets are used to check truthness, and thus it is used in if statements.
 directory_contents=$(ls)
-printf "Directory contents: \n $directory_contents"
+printf "Directory contents: \n $directory_contents \n"
 echo {1..10}
 prefix="cheese"
 echo "${prefix}ification"
+echo "There are ${#prefix} letters in your prefix"
+#The code above uses curly brackets. Curly brackets are versatile and can be used for several functions, including the expansion of number ranges/sequences as done above.
+#Additionally, they can be used for variable interpolation when there are no spaces in between the variable and the string.
