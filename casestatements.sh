@@ -16,3 +16,5 @@ case $choice in
 		exit
 esac
 echo "You have selected $option"
+#Above is a basic example of a case statement. it specifies what to do if either option 1, 2, or 3 are selected, similarly to the elif in an if statement.
+#The asterisk option represents values which have not been specified, and functions similarly to an else in an if statement. This can often be used to correct invalid input in a choice menu.
