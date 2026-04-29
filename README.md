@@ -7,4 +7,8 @@ Developing this repository is useful to learn and practice programming and troub
 # Using Git
 Using Git is useful for keeping track of the repository and its individual elements, as it allows you to push and pull changes and retrieve the repository anywhere as long as it is accessible.
 # The Importance of Git
+<<<<<<< HEAD
 Git is especially useful in the industry, as it allows for multiple users, i.e. a team, to work on a single project/repository. The convieniences of Git are easily applied to a workforce; anyone, with authorization/permissions, can contribute and/or track progress anywhere, anytime, as need be.
+=======
+Git is especially useful in the industry, as it allows for multiple users, i.e. a team, to work on a single project/repository. The convieniences of Git are easily applied to a workforce; anyone, with authorization/permissions, can contribute and/or track progress anywhere, anytime, as need be.
+>>>>>>> d14dd536afd41c92123e3f35aca014f6531aab54
