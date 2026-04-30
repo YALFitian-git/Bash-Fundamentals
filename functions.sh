@@ -5,3 +5,16 @@ val_2=5
 function add {
 	echo "(($val_1 + $val_2))"
 }
+function subtract {
+	echo "(($val_1 - $val_2))"
+}
+read -p "Choose to add or subtract: (+ or -)" operator
+case $operator in
++)
+	add
+	;;
+-)
+	subtract
+	;;
+*)
+	echo 'Invalid Input'
